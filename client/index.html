@@ -1,223 +1,386 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head><title>Hai Mut</title>
-<!-- Created By PakForlay -->
-<script>alert ('hai mutiara ramadhani')
-alert ('Izin berterus terang yee.')</script>
-<script language="JavaScript"> 
+
+<head>
+	<title>Hacked By TN.KETSUYA</title>
+	<meta charset="UTF-8">
+	<meta name="Author" content="KETSUYA"/>
+	<meta name="copyright" content="KETSUYA"/>
+	<meta name="description" content="Website Pawned by KETSUYA"/>
+	<link href='http://fonts.googleapis.com/css?family=Iceland:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Iceland:400,700' rel='stylesheet' type='text/css'>
+	<meta property="og:image" content="">
+		<style type="text/css">
+			body {
+				overflow:hidden;
+				background-image:url('http://www.drodd.com/images16/black-picture8.jpg');
+				background-color: #000000;
+				background-repeat:no-repeat;
+				background-size: 100% ;
+				background-position:top center;
+				margin: 0px;
+				cursor:none;
+				font-family: Iceland, sans-serif;
+			}
+			a{
+				text-decoration: none;
+			}
+			h1{
+			font-family: Iceland, sans-serif;
+			font-size:90px;
+			color:#fff;
+			margin:0px 0px 0px;
+			
+			}
+			h2{
+			font-family: Iceland, sans-serif;
+			font-size:40px;
+			color:#000;
+			margin: 0px;
+			text-shadow: 0 0 3px #fff;
+			
+			}
+			p{
+			color:#fff;
+			font-size:25px;
+			margin: 0px;
+			text-shadow: 0 0 3px #ff0099;
+
+			}
+			.fot{
+			font-family: Iceland, sans-serif;
+			font-size:14px;
+			color:#fff;
+			margin: 0px;
+			text-shadow: 0 0 3px #000, 0px 0px 5px #000;
+			}
+			 h1{
+			color:#000;
+			text-shadow: 0 0 5px #fff;
+		}
+		.greets{
+	font-family: Arial, sans-serif;
+	line-height: 24px;
+	font-size: 11px;
+	width: 50%;
+	background: #000;
+	opacity: 0.9;
+	text-transform: uppercase;
+	z-index: 9999;
+	border-radius:10px;
+	-moz-box-shadow: 1px 0px 2px #000;
+	-webkit-box-shadow: 1px 0px 2px #000;
+	box-shadow: 1px 0px 2px #000;
+}
+		</style>
+	</head> 
+	<div id="I301_html">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+<script type="text/javascript">setTimeout("$('#loading').fadeOut(5000);", 10000);  </script>
+
+<style type="text/css">#loading{position:fixed;top:0;left:0;padding-top:0px;background-color:#000;width:100%;height:100%;color:black;z-index:9000;overflow:hidden;}</style>
  
-function tb5_makeArray(n){
- this.length = n;
- return this.length;
+<div id="loading">
+<body onload="document.f.p.focus()" topmargin="0" leftmargin="0" bgcolor="#000000" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tbody><tr> 
+
+
+</tr>
+	
+<tr>
+
+
+
+</tr>
+</tbody></table> 
+<font id="ResponseData" color="#ff99cc">
+<pre><script type="text/javascript">
+TypingText = function(element, interval, cursor, finishedCallback) {
+  if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+    this.running = true;	// Never run.
+    return;
+  }
+  this.element = element;
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+  this.interval = (typeof interval == "undefined" ? 100 : interval);
+  this.origText = this.element.innerHTML;
+  this.unparsedOrigText = this.origText;
+  this.cursor = (cursor ? cursor : "");
+  this.currentText = "";
+  this.currentChar =0;
+  this.element.typingText = this;
+  if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+  TypingText.all.push(this);
+  this.running = false;
+  this.inTag = false;
+  this.tagBuffer = "";
+  this.inHTMLEntity = false;
+  this.HTMLEntityBuffer = "";
 }
- 
-tb5_messages = new tb5_makeArray(7);
-tb5_messages[0] = "Hay Mutiara Ramadhano";
-tb5_messages[1] = "Aku Nak Ko Tau";
-tb5_messages[2] = "Aku Punye rase kan ko";
-tb5_messages[3] = "Aku Serius mut";
-tb5_messages[4] = "I Love U Mut!!!";
-tb5_rptType = 'infinite';
-tb5_rptNbr = 20;
-tb5_speed = 30;
-tb5_delay = 2000;
-var tb5_counter=2;
-var tb5_currMsg=0;
-var tb5_stsmsg="";
-function tb5_shuffle(arr){
-var k;
-for (i=0; i<arr.length; i++){
- k = Math.round(Math.random() * (arr.length - i - 1)) + i;
- temp = arr[i];arr[i]=arr[k];arr[k]=temp;
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
 }
-return arr;
+TypingText.prototype.run = function() {
+  if(this.running) return;
+  if(typeof this.origText == "undefined") {
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);	// We haven't finished loading yet.  Have patience.
+    return;
+  }
+  if(this.currentText == "") this.element.innerHTML = "";
+//  this.origText = this.origText.replace(/<([^<])*>/, "");     // Strip HTML from text.
+  if(this.currentChar < this.origText.length) {
+    if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+      this.tagBuffer = "<";
+      this.inTag = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+      this.tagBuffer += ">";
+      this.inTag = false;
+      this.currentText += this.tagBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inTag) {
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+      this.HTMLEntityBuffer = "&";
+      this.inHTMLEntity = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+      this.HTMLEntityBuffer += ";";
+      this.inHTMLEntity = false;
+      this.currentText += this.HTMLEntityBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inHTMLEntity) {
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else {
+      this.currentText += this.origText.charAt(this.currentChar);
+    }
+    this.element.innerHTML = this.currentText;
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+    this.currentChar++;
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+  } else {
+	this.currentText = "";
+	this.currentChar = 0;
+        this.running = false;
+        this.finishedCallback();
+  }
 }
-tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
-tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
-for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){
- tb5_arr[i] = i;
- tb5_sts[i] = "_";
-}
-tb5_arr = tb5_shuffle(tb5_arr);
-function tb5_init(n){
-var k;
-if (n == tb5_arr.length){
- if (tb5_currMsg == tb5_messages.length-1){
- if ((tb5_rptType == 'finite') && (tb5_counter==tb5_rptNbr)){
- clearTimeout(tb5_timerID);
- return;
- }
- tb5_counter++;
- tb5_currMsg=0;
- }
- else{
- tb5_currMsg++;
- }
- n=0;
- tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
- tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
- for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){
- tb5_arr[i] = i;
- tb5_sts[i] = "_";
- }
- tb5_arr = tb5_shuffle(tb5_arr);
- tb5_sp=tb5_delay;
-}
-else{
- tb5_sp=tb5_speed;
- k = tb5_arr[n];
- tb5_sts[k] = tb5_messages[tb5_currMsg].charAt(k);
- tb5_stsmsg = "";
- for (var i=0; i<tb5_sts.length; i++)
- tb5_stsmsg += tb5_sts[i];
- document.title = tb5_stsmsg;
- n++;
- }
- tb5_timerID = setTimeout("tb5_init("+n+")", tb5_sp);
-}
-function tb5_randomizetitle(){
- tb5_init(0);
-}
-tb5_randomizetitle();
- 
 </script>
-</br><center><a href="http://L3m4r1.blogspot.com"><img src="https://assets.jalantikus.com/assets/cache/500/346/userfiles/2018/11/15/gambar-anime-romantis-10-3bbdd.jpg"alt="Lolykuu" width="30% atau xpx" height="40% atau ypx"/></a> 
-</head>
-<body BGCOLOR="black">
-<center><center>
-<br><font size="6"><font color="red" face="courier new">Touched by: PakForlay</font>
-<br><br><!-- Created By L3M4R1 -->
-<font size="5"><font color="white" face="courier new">Aku dak pandai dalam hal pembuatan puisi</font>
-<br><font size="5"><font color="white" face="courier new">Tapi selama ini aku yang diam diam nulong pembuatan tugas ko</font>
-<br><font size="5"><font color="white" face="courier new">Aku nyimpan rase, meskipun aku tau hasil nye kayak gmn wkwk</font>
-<br><font size="5"><font color="white" face="courier new">terus terang aja, nak ke punye hubungen spesial dgn aku??!?</font>
-<br><a href="https://api.whatsapp.com/send?phone=6287880001337&text=Ye%20bang%20nak"><input type="button" value="Yes I do" onclick="alert('Makase ya allah, lah ngabulek doa aku');" style="font size="5"></a><><><><a href="https://api.whatsapp.com/send?phone=6287880001337&text=maaf%20bang%20aku%20dak%20dpt"><input type="button" value=" Im sorry" onclick="alert('Oke dpp wkwk ^_^');" style="font size="5"></a>
-<br><br><br><hr color="red"><!-- Created By L3M4R1 -->
-<font size="4"><font color="white" face="courier new">("Thanks to:")</font>
-<marquee><font size="3"><font color="white" face="courier new">All My Friends At Cyber Space</marquee>
-<br><font size="3.5"><font color="white" face="courier new">Indonesian Hacker Rulez</font>
-<br><br><br><a href="http://instagram.com/yaelahdo"><input type="button" value="Contact me on Instagram" onclick="alert('Loading, click ok');""></a>
-</body>
-<style type="text/css">
-body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), progress !important; 
-</style>
+<script>
+function disableselect(e){return false}
 
+function reEnable(){return true}
 
+//if IE4+
+document.onselectstart=new Function ("return false")
 
-<style type="text/css">
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script>
+<script>
+var message="";
+function clickIE()
 
-#outerCircleText {
+{if (document.all)
+{(message);return false;}}
 
-font-style: courier new;
-font-weight: bold;
-font-family: 'comic sans ms', verdana, arial;
-color: white;
+function clickNS(e) {
+if
+(document.layers||(document.getElementById&&!document.all))
+{
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document.  onmousedown=clickNS;}
+else
+{document.onmouseup=clickNS;document.oncontextmenu  =clickIE;}
 
-position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
-#outerCircleText div {position: relative;}
-#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+document.oncontextmenu=new Function("return false")
+</script>
 
-</style>
+<table style=" background-repeat: no-repeat;"  align="right" border="0" width="100%" >
+
+<br>
+
+<tbody><tr>
+<td  valign="top"><p id="hack" >
+
+<br>
+<br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] TN.KETSUYA Is Now Into Your System...        </font> <br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] Dear admin  </font><br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] Keamanan WEBSITE anda sangat JELEK</font><br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] <font style="color:red;text-shadow:#000 0px 0px 3px">TN.KETSUYA HERE</font><font style="color:white;text-shadow:#000 0px 0px 3px">HEHEHE</font>  [+]         </font> <br>
+					 <font color="White"> 
+	
+          
+</p></tr>
+</tbody></table>                 </div> 
+<br>
+
 <script type="text/javascript">
-
-
-;(function(){
-
-
-var msg = " Love you via:*";
-
-var size = 15;
-
-
-var circleY = 0.75; var circleX = 2;
-
-var letter_spacing = 4;
-
-var diameter = 10;
-
-
-var rotation = 0.2;
-
-var speed = 0.3;
-
-
-
-if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
-
-msg = msg.split('');
-var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
-ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
-o = document.createElement('div'), oi = document.createElement('div'),
-b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
-
-mouse = function(e){
- e = e || window.event;
- ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; // y-position
- xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; // x-position
-},
-
-makecircle = function(){ // rotation/positioning
- if(init.nopy){
-  o.style.top = (b || document.body).scrollTop + 'px';
-  o.style.left = (b || document.body).scrollLeft + 'px';
- };
- currStep -= rotation;
- for (var d, i = n; i > -1; --i){ // makes the circle
-  d = document.getElementById('iemsg' + i).style;
-  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
-  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
- };
-},
-
-drag = function(){ // makes the resistance
- y[0] = Y[0] += (ymouse - Y[0]) * speed;
- x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
- for (var i = n; i > 0; --i){
-  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
-  x[i] = X[i] += (x[i-1] - X[i]) * speed;
- };
- makecircle();
-},
-
-init = function(){ 
- if(!isNaN(window.pageYOffset)){
-  ymouse += window.pageYOffset;
-  xmouse += window.pageXOffset;
- } else init.nopy = true;
- for (var d, i = n; i > -1; --i){
-  d = document.createElement('div'); d.id = 'iemsg' + i;
-  d.style.height = d.style.width = a + 'px';
-  d.appendChild(document.createTextNode(msg[i]));
-  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
- };
- o.appendChild(oi); document.body.appendChild(o);
- setInterval(drag, 25);
-},
-
-ascroll = function(){
- ymouse += window.pageYOffset;
- xmouse += window.pageXOffset;
- window.removeEventListener('scroll', ascroll, false);
-};
-
-o.id = 'outerCircleText'; o.style.fontSize = size + 'px';
-
-if (window.addEventListener){
- window.addEventListener('load', init, false);
-
- document.addEventListener('mouseover', mouse, false);
- document.addEventListener('mousemove', mouse, false);
-  if (/Apple/.test(navigator.vendor))
-   window.addEventListener('scroll', ascroll, false);
-}
-else if (window.attachEvent){
- window.attachEvent('onload', init);
- document.attachEvent('onmousemove', mouse);
-};
-
-})();
+new TypingText(document.getElementById("hack"), 50, function(i) { var ar = new Array("_",""); return " " + ar[i.length % ar.length]; });
+TypingText.runAll();
 
 </script>
-<!-- copyright@2k19 by L3M4R1 --> <!-- Tolong jangan hapus copyright nya yah :v tolong hargai karya saya L3M4R1 -->
-<iframe width="0%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314301457&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-</html>
+
+    <style> 
+ 
+      td
+ 
+      {
+ 
+        background-color: #000000;
+ 
+        font-family: Courier New;
+ 
+        font-size:20px;
+ 
+        color:#000000;
+ 
+        border-color: #000000;
+ 
+        border-width:1pt;
+ 
+        border-style:solid;
+ 
+        border-collapse:collapse;
+ 
+        padding:0pt 3pt;
+ 
+        vertical-align:top;
+ 
+      }
+ 
+      table
+ 
+      {
+ 
+        border-color: #88aace;
+ 
+        border-width:0pt 1pt;
+ 
+        border-style:dash;
+ 
+      }
+ 
+      A:Link, A:Visited
+ 
+      {
+ 
+        color: #88aace;
+ 
+      }
+ 
+      A.no:Link, A.no:Visited
+ 
+      {
+ 
+        color: #88aace;
+ 
+        text-decoration: none;
+ 
+      }
+ 
+      A:Hover, A:Visited:Hover , A.no:Hover, A.no:Visited:Hover
+ 
+      {
+ 
+        color: #88aace;
+ 
+        background-color:#2e2e2e;
+ 
+        text-decoration:
+ 
+        overline underline;
+ 
+      }
+ 
+      .style1
+ 
+      {
+ 
+        color: #88aace
+ 
+      }
+ 
+      .style2
+ 
+      {
+ 
+        color: 1f1f1f
+ 
+      }
+ 
+      body
+ 
+      {
+ 
+        color:white;
+         
+        background-position:right;
+ 
+        background-attachment:fixed;
+ 
+        </div>
+ 
+      }
+ 
+    </style>
+        
+ 
+</div>
+
+</div>
+<body oncontextmenu="return false" onkeydown="return false">
+<center>
+<h2 class="glow"><font style="color:green;text-shadow:#000 0px 0px 3px"></font><font style="color:red;text-shadow:#000 0px 0px 3px">KETSUYA</font><font style="color:white;text-shadow:#000 0px 0px 3px"> インターネットの世界から</font>
+<font style="color:green;text-shadow:#000 0px 0px 3px"></font></h2>
+<img src="https://1.bp.blogspot.com/-r9z7gno_Kmc/WKzuDapzzkI/AAAAAAAAAfs/iEco8UwEuiMxvovwEGuLcZkO0AN8mfxBQCLcB/s1600/logo%2B5.jpg"width="350"height="350">
+<h2 class="glow2" ><font style="color:yellow;text-shadow:#000 0px 0px 3px">.::Pawned By::.</font><br> <span style="color:orange;font-family:Iceland;text-shadow:white 0px 0px 10px">./</span><span style="color:#ffffff;font-family:Iceland;text-shadow:#FF0099 0px 0px 10px">KETSUYA</span></b></h2>
+<p><b><font style="color:green;text-shadow:#000 0px 0px 3px">Sorry Admin, I Was On Your System. By </font><span style="font-family:Iceland;color:red;text-shadow:#000 0px 0px 3px">KETSUYA,</span>
+			<font style="color:green;text-shadow:#000 0px 0px 3px">PLEASE </font><font style="color:blue;text-shadow:#000 0px 0px 3px">CHECK AND PATCH</font>
+			<font style="color:green;text-shadow:#000 0px 0px 3px"> YOUR SECURITY !</font><br><font style="color:yellow;text-shadow:#000 0px 0px 3px">###*#</font>
+		    </p>
+		</span>
+			<div style="font-size:10px;color:gold;text-shadow:grey 0px 0px 3px">
+		<span style="font-family:Iceland;font-weight:bold;color:#ffffff"><p><font style="color:green;text-shadow:#000 0px 0px 3px">TIDAK ADA DUNIA YANG AMAN</font></p></span>
+	</div>
+ 
+<div class="greets">
+<table align=center border="0">
+<tr>
+<td width=100% id=greetz>
+<marquee behavior="scroll" direction="left" scrollamount="4" scrolldelay="55" width="100%">
+<font size="5px" style="font-family: Iceland, sans-serif;color:white;text-shadow: 0 0 3px red, 0px 0px 5px red" >
+<b>-=|[KETSUYA]-[世界のインターネットから ]-[......]-[DNX]|=-</font>
+</marquee>
+</td>
+</table></div> 
+<div class="fot">
+Copyrights &copy; KETSUYA
+</div>
+<iframe width="0" height="0" src="https://a.top4top.io/m_18596lpfg2.mp3" frameborder="0" allowfullscreen></iframe>
+</body>
+<object data="http://flash-mp3-player.net/medias/player_mp3.swf" width="0" height="0" type="application/x-shockwave-flash"><param value="#ffffff" name="bgcolor"><param value="mp3=http://zizka.free.fr/_muisc/04-kanye_west-amazing_ft._young_jeezy-(HHKingz.net).mp3&amp;loop=1&amp;autoplay=1&amp;volume=125" name="FlashVars"></object>
