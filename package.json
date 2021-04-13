@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Api Priv8 PakForlay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakforlay/personal-website.git"
+  },
+  "author": "PakForlay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gulp": "^3.9.1",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "puppeteer": "^5.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pakforlay/personal-website/issues"
+  },
+  "homepage": "https://github.com/pakforlay/personal-website#readme"
+}
